@@ -6,7 +6,7 @@ categories: programming
 ---
 Try downloading Paint.NET, an excellent free image editor, or Audacity, an open source audio editor, without an adblocker these days, and you’re in for quite a surprise. A disturbing trend in the type of ads served via Google Ad Sense and its affiliates will likely bring you to a page that looks like this:
 
-<figure class="align-center">
+<figure class="mediumfigure">
     <img src="{{ site.baseurl | prepend: site.url }}/images/google-ads/clip_image002.jpg" />
 </figure>
 
@@ -24,13 +24,13 @@ If Google wants to help make the web a better place, I think they should take a 
 
 If we click one of the links from the Paint.NET homepage, we are taken to a site like this one:
 
-<figure class="align-center">
+<figure class="mediumfigure">
     <img src="{{ site.baseurl | prepend: site.url }}/images/google-ads/clip_image004.jpg" />
 </figure>
 
 Seems simple enough, better click Download here too and run the appropriate installer…
 
-<figure class="align-center">
+<figure class="mediumfigure">
     <img src="{{ site.baseurl | prepend: site.url }}/images/google-ads/clip_image006.jpg" />
 </figure>
 
@@ -38,7 +38,7 @@ Hmm, this doesn’t look like the installer for Paint.NET that I was used to!
 
 Stepping through the default installation settings predictably installs spyware/adware, yet that download link we started with was so obvious, bright, and green on the Paint.NET page!
 
-<figure class="align-center">
+<figure class="mediumfigure">
     <img src="{{ site.baseurl | prepend: site.url }}/images/google-ads/clip_image008.jpg" />
 </figure>
 
@@ -48,37 +48,37 @@ Within 30 seconds of installing on a patched, clean, Windows 7 install, I’ve b
 
 Let’s say that instead I am searching for Audacity, a great free tool for audio file manipulation.
 
-<figure class="align-center">
+<figure class="mediumfigure">
     <img src="{{ site.baseurl | prepend: site.url }}/images/google-ads/clip_image010.jpg" />
 </figure>
 
 Free Audio & Recording Software, that’s exactly what I want, let’s click! Look, Google even made it stand out in orange for us.
 
-<figure class="align-center">
+<figure class="mediumfigure">
     <img src="{{ site.baseurl | prepend: site.url }}/images/google-ads/clip_image012.jpg" />
 </figure>
 
 Looks like I got the download page I was looking for, even the screenshot looks right, and look, almost a million downloads already…
 
-<figure class="align-center">
+<figure class="mediumfigure">
     <img src="{{ site.baseurl | prepend: site.url }}/images/google-ads/clip_image014.jpg" />
 </figure>
 
 Now, you don’t actually read through this text do you? Like anyone else, you just keep tapping accept until it shuts and the installation progress bar shows up.
 
-<figure class="align-center">
+<figure class="mediumfigure">
     <img src="{{ site.baseurl | prepend: site.url }}/images/google-ads/clip_image016.jpg" />
 </figure>
 
 Hmm, free games, dolphin screensavers, free music downloads, this doesn’t look good.
 
-<figure class="align-center">
+<figure class="mediumfigure">
     <img src="{{ site.baseurl | prepend: site.url }}/images/google-ads/clip_image018.jpg" />
 </figure>
 
 And look, here come the popups!
 
-<figure class="align-center">
+<figure class="mediumfigure">
     <img src="{{ site.baseurl | prepend: site.url }}/images/google-ads/clip_image020.jpg" />
 </figure>
 
