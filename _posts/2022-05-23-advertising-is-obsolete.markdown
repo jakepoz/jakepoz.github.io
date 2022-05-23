@@ -2,7 +2,7 @@
 layout: post
 title:  "Advertising is Obsolete"
 date:   2022-05-23 12:00:00 -0700
-categories: thoughtss
+categories: thoughts
 ---
 
 Advertising is obsolete.

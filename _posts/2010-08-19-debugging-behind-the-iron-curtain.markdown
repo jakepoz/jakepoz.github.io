@@ -3,6 +3,7 @@ layout: post
 title:  "Debugging Behind the Iron Curtain"
 date:   2010-08-19 12:00:00 -0700
 categories: programming
+permalink: /debugging-behind-the-iron-curtain/
 ---
 Sergei is a veteran of the early days of the computing industry as it was developing in the Soviet Union. I had the pleasure of working and learning from him over the past year, and in that time I picked up more important lessons about both life and embedded programming than any amount of school could ever teach. The most striking lesson is the story of how and why, in late summer of 1986, Sergei decided to move his family out of the Soviet Union.
 
