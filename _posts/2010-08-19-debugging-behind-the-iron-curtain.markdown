@@ -17,3 +17,6 @@ As you may know, the Chernobyl Nuclear Power Plant disaster occurred in 1986 and
 Not only were the cattle shipments highly contaminated with radiation, the levels were high enough to randomly flip bits in the memory of the SM-1800, which was located in a building close to the railroad tracks.
 
 There were often significant food shortages in the Soviet Union, and the government plan was to mix the meat from Chernobyl-area cattle with the uncontaminated meat from the rest of the country. This would lower the average radiation levels of the meat without wasting valuable resources. Upon discovering this, Sergei immediately filed immigration papers with any country that would listen. The computer crashes resolved themselves as radiation levels dropped over time.
+
+[Korean Translation provided by Edward Kim](https://edykim.com/ko/post/debugging-behind-the-iron-curtain/)
+
