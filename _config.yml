@@ -12,7 +12,7 @@ disqus: your_disqus_site
 # Social Accounts
 social_networks:
 -  { name: facebook, url: '' }
--  { name: twitter, url: '' }
+-  { name: twitter, url: 'https://twitter.com/jakepoznanski' }
 -  { name: instagram, url: '' }
 -  { name: google-plus, url: '' }
 -  { name: linkedin, url: '' }
