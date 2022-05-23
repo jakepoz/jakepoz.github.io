@@ -56,7 +56,7 @@ defaults:
       comments: "true"
 
 # Serving
-url: "https://www.jakepoz.com/"
+url: https://www.jakepoz.com
 baseurl: ""
 
 # Includes
