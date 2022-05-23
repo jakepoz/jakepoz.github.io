@@ -4,15 +4,15 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+My name is Jakub Poznanski, though I'm known as Jake to most people. I was born in Poland, but lived in the United States for most of my life. I graduated from Carnegie Mellon University with a degree in Computer Science in 2011. Since then, I've worked on some interesting projects in the real world:
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+- Designing electronic speed controllers for the [QinetiQ Dragon Runner](https://www.qinetiq.com/en-us/what-we-do/services-and-products/dragon-runner-small-and-compact-robot) 
+- Writing flight software for [SpaceX](https://www.spacex.com)
+- Founding and running a [gaming startup](https://www.randomsaladgames.com).
+- Creating [a tool for audiobook proofing](https://www.pozotron.com). 
+- Starting [a reinforcement learning robot that will take over the world](https://www.gooddog.ai).
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+<figure>
+    <img src="{{ site.baseurl | prepend: site.url }}/images/profile.jpg" />
+    <figcaption>It's me! A million years ago.</figcaption>
+</figure>
