@@ -2,7 +2,7 @@
 layout: post
 title:  "PowerPipe - Drain-Water Heat Recovery Review"
 date:   2020-11-01 12:00:00 -0700
-categories: projects
+categories: reviews
 ---
 We recently had a chance to install a new water heater, and with it, to install a Drain-Water Heat Recovery system. I wanted to share our experience and some real numbers on the cost savings.
 
