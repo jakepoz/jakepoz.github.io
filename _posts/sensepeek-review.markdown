@@ -15,6 +15,16 @@ is written with no affiliate links / financial motivations, and I purchased the 
 This kit is an essential part of my electronics workflow. It allows you to safely and sturdily attach a logic analyzer
 or 100/200Mhz probe to any testpoint, or SMD part lead, while keeping your hands free.
 
+The kit comes with three main pieces:
+ - A metalic baseplate
+   - It now ships with a stick-on cover to make it non-conductive, but one side is also polished, which you can
+   use to see the bottom side of your board.
+ - PCBite mounting posts which attach magnetically to the baseplate
+   - They also have a smooth teflon bottom, so they are easy to slide and re-adjust.
+ - Probes and Probe Holders
+   - These are similar to the "helping hands" kind, except less stiff. This actually helps the weight of the probe
+   rest down on your testpoint and make a better connection.
+
 <figure>
     <img src="{{ site.baseurl | prepend: site.url }}/images/sensepeek/board.jpg"/>
     <figcaption>A small circuit board mounted with the PCBBite posts.</figcaption>
@@ -35,6 +45,13 @@ drop some weight on the probe tip in order to make a good connection. </figcapti
 <figure>
     <img src="{{ site.baseurl | prepend: site.url }}/images/sensepeek/probe_attached.jpg"/>
     <figcaption>An example probing a TSOP65P640X110-16N package.</figcaption>
+</figure>
+
+
+
+<figure>
+    <img src="{{ site.baseurl | prepend: site.url }}/images/sensepeek/SCR57.PNG"/>
+    <figcaption>Yellow is an RT-ZP03S, green is the SP200.</figcaption>
 </figure>
 
 
