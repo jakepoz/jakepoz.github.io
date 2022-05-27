@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "sensepeek Oscilloscope Probe Review"
-date:   2022-05-23 12:00:00 -0700
+date:   2022-05-27 11:00:00 -0700
 categories: reviews
 ---
 
@@ -27,7 +27,7 @@ The kit comes with three main pieces:
 
 ### Mounting Examples
 
-All of the sensepeek probe work the same way, there is a tiny, spring-loaded gold needle that can rest against
+All of the sensepeek probes work the same way, there is a tiny, spring-loaded gold needle that can rest against
 a PCB test point. The weight of the supplied mounting "gooseneck" is actually perfect for applying some pressure on the
 pin. I found that it was very easy to adjust the gooseneck to come around from the proper side.
 
@@ -77,4 +77,4 @@ a shorter, low-impedance ground path.
 Overall, I'm very satisfied, the SP200 is now my default probe when bringing up a new electronics board. If I need to
 see a higher bandwidth signal, I can always start with the SP200 and connect a traditional passive probe later.
 
-Additional Source: [More thorough review SP200 probe on xDevs](https://xdevs.com/review/sp200/)
+Additional Source: [SP200 probe specs on xDevs](https://xdevs.com/review/sp200/)
