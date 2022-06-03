@@ -1,0 +1,46 @@
+---
+layout: post
+title:  "Does Joi love K? (Blade Runner 2049)"
+date:   2022-06-03 11:00:00 -0700
+categories: thoughts
+---
+
+The original Blade Runner showed us that two replicants can fall in love. This makes sense, because a
+replicant is almost indistinguishable from a naturally-born human. Made with the same biological building blocks,
+they should have the capability for the same emotions as humans.
+
+Blade Runner 2049's main character, the more advanced model replicant K, has a different love interest: a "virtual"
+holographic girlfriend by the name of Joi.
+Can the human emotion of love exist between two such entities? I argue that it can.
+
+Joi is represented in advertisements as a highly sexualized virtual girlfriend made by the Wallace Corporation, where the client gets to "
+hear what you want to hear",
+and "see what you want to see". The audience first meets K's version of Joi when he returns back home (the residents of his shoddy
+apartment block are happy to discriminate openly against replicants, and shout slurs at him as he passes). Joi brings
+him some simple cheerfulness and makes his dinner look more appetizing through a hologram. You can imagine that
+the new dress she is showing off is nothing more than an "in-app purchase" put there by Wallace Corp. to better monetize
+their product. It's clear that her appeal also inspires K to spend his recent bonus on an expensive addon "emanator" which
+will let him take the Joi hologram outside of his home. This leads to a virtual kiss in the rain scene, which gets interrupted
+when K gets an incoming call: he switches off the hologram as if it were nothing to him.
+
+Once K starts tracking down the lost replicant child, it's clear that the Wallace Corporation is uncannily aware of 
+his movements and the status of the investigation. They are using their link through Joi to watch him. Up to this point,
+it seems that Joi has not gone beyond a computer program designed to press a customer's emotional buttons in exchange for
+money. (Not much different than many products we have today: social networks, freemium games, lootboxes, etc).
+
+However, soon we hit a turning point: K fails his "baseline", normally the consequence of this is immediate death. He
+convinces his boss to give him one more chance, and returns home with the intention to run away and continue looking
+for the lost child. Joi offers to go with him, and instructs him to upload her memories into his portable emanator,
+and then to destroy the antenna by which they may track him. As soon as K snaps the antenna, the Wallace Corporation 
+springs into action, proving the point that they were using the link to watch him. This is the first sign that Joi actually
+feels love for K. She is willing to take a personal risk: with her consciousness uploaded, she would lose all of her
+memories if the storage device was destroyed. It appears that this has great personal importance to both her and K.
+
+Joi provides K with emotional support, as he flies to Las Vegas to meet with Deckard. When the Wallace Corporation
+finally catches up with them, the antagonist sees Joi, and goes to stomp her foot down on the emanator. Joi's last words
+to K are "I love you". K himself appears unable to know how to process this loss.
+
+In the end, Joi's words are reinforced by her actions. She may have been synthetic, but she acted on her feelings towards K.
+Her decision to upload herself into the emanator and destroy the antenna prioritized her's and K's needs, over the needs of her creators.
+It is the same decision that many young adults would face in the same situation: to act not in the ultimate interest of themselves, or their parents, but to act selflessly for another being.
+And is that not love?
