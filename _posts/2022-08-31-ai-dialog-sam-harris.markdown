@@ -9,7 +9,7 @@ categories: thoughts
 
 I've been thinking about morality as it relates to the future of AI. In order to clarify my thoughts, I imagined a discussion with Sam Harris, who has covered this topic in numerous podcasts and talks. This fictional dialogue follows:
 
-
+---
 
 **Jake**
 
