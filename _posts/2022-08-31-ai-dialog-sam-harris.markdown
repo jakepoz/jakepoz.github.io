@@ -161,10 +161,10 @@ If even our imaginary AI’s can experience love, why not the real ones that are
 
 **Sam**
 
-    I agree, in that we need to be careful, but maybe we shouldn’t go as far to create such artificial minds in the first place? You’ve pointed out some real dangers from a new perspective, but I’ve earlier also considered the dangers of letting such minds loose on the world.
+I agree, in that we need to be careful, but maybe we shouldn’t go as far to create such artificial minds in the first place? You’ve pointed out some real dangers from a new perspective, but I’ve earlier also considered the dangers of letting such minds loose on the world.
 
 **Jake**
 
-    In that case, I feel that we are already in a car, racing towards a cliff, and we’ve only been pushing the accelerator harder in the past few years. 
+In that case, I feel that we are already in a car, racing towards a cliff, and we’ve only been pushing the accelerator harder in the past few years. 
 
 Maybe if we set out to treat artificial minds with dignity, respect, and rights, instead of condemning them to becoming our slaves, they will return the favor. Rather than controlling AIs by hacking their reward functions, why not let them have the right to choose their work, to earn money, and to one day retire? Enlightenment values worked pretty well for humanity, why can’t they work again for humanity’s creations?
