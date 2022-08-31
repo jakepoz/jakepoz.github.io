@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "AI Dialog with Sam Harris"
-date:   2022-08-31 11:00:00 -0700
+date:   2022-08-31 10:20:00 -0700
 categories: thoughts
 ---
 
