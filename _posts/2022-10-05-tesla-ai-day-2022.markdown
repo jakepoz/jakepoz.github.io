@@ -25,7 +25,7 @@ There has been a distinct evolution of robot actuator availability in the past 1
  - 2027 - You'll be able to find cheap strain wave rotary actuators and awesome linear actuators from Optimus spares, OMG!
 
 
-The [FSD Lanes and Objects](https://www.youtube.com/watch?v=ODSJsviD_SU&t=5148s) system is a real innovation.
+The [FSD Lanes and Objects](https://www.youtube.com/watch?v=ODSJsviD_SU&t=5148s) system is also a real innovation.
 5 years ago, we had Segmentation Networks, and we thought that they had a semantic-understanding of the world. However, this 
 was in pixel space. Now we have auto-regressive Transformers that are ACTUALLY one step closer to a real semantic-understanding of the world.
 Will this be enough for Level 5 autonomy? We will see.
@@ -41,8 +41,8 @@ real world, and building out high precision maps of those places out of multi-tr
 The big issue here is that if your training data is going to contain real world places and intersections with such 
 level of detail, then, those real world places will change slowly over time due to construction, etc. And then,
 your driving networks will be trained on data which looks almost exactly like the locations they will see at inference
-time, but except there will be an extra-lane, or a newly-added traffic pattern that wasn't yet updating into the training set.
+time, but there will be an extra-lane, or a newly-added traffic pattern that wasn't yet updating into the training set.
 
 This generalization problem is going to be hard to solve, especially when you are shooting for long-tail accuracy and recall.
-They are basically comitting themselves to updating these auto labels on a regular basis, but even then I predict
+They are basically committing themselves to updating these auto labels on a regular basis, but even then I predict
 that the networks will get confused when there are unexpected deviations from their training data.
