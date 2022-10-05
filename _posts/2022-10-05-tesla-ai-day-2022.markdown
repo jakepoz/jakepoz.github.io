@@ -35,7 +35,7 @@ real world, and building out high precision maps of those places out of multi-tr
 
 <figure>
     <img src="{{ site.baseurl | prepend: site.url }}/images/aiday_autolabeling.png" />
-    <figcaption>Tesla's new rotary and linear actuators.</figcaption>
+    <figcaption>Tesla's autolabeling system reconstructs real world intersections from fleet data.</figcaption>
 </figure>
 
 The big issue here is that if your training data is going to contain real world places and intersections with such 
