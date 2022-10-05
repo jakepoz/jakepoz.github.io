@@ -14,7 +14,7 @@ training methodology for Full Self Driving.*
 The Optimus presentation might have appeared lacklustre (bots were slow and unsteady), but
 the actuator designs they presented are awesome! (and they will nail the software eventually)
 
-<figure class="mediumfigure">
+<figure>
     <img src="{{ site.baseurl | prepend: site.url }}/images/aiday_actuators.png" />
     <figcaption>Tesla's new rotary and linear actuators.</figcaption>
 </figure>
@@ -33,7 +33,7 @@ Will this be enough for Level 5 autonomy? We will see.
 The most worrying part of the presentation is their new autolabeling system. Tesla is mapping out regions of roads in the 
 real world, and building out high precision maps of those places out of multi-trip reconstructions of drives through them.
 
-<figure class="mediumfigure">
+<figure>
     <img src="{{ site.baseurl | prepend: site.url }}/images/aiday_autolabeling.png" />
     <figcaption>Tesla's new rotary and linear actuators.</figcaption>
 </figure>
