@@ -1,0 +1,48 @@
+---
+layout: post
+title:  "Tesla AI Day 2022 Review"
+date:   2022-10-05 9:20:00 -0700
+categories: thoughts
+---
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ODSJsviD_SU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+*Tesla's AI Day 2022 presentation revealed a lot of new developments to 
+be excited about, and those may not be what you think they are. Also, they may soon get bogged down in their
+training methodology for Full Self Driving.*
+
+The Optimus presentation might have appeared lacklustre (bots were slow and unsteady), but
+the actuator designs they presented are awesome! (and they will nail the software eventually)
+
+<figure class="mediumfigure">
+    <img src="{{ site.baseurl | prepend: site.url }}/images/aiday_actuators.png" />
+    <figcaption>Tesla's new rotary and linear actuators.</figcaption>
+</figure>
+
+There has been a distinct evolution of robot actuator availability in the past 15 years: 
+ - 2007 - Good luck finding any sort of cheap and still reasonably good motors. A simple low power BLDC motor could cost $600+
+ - 2017 - Lots of cheap BLDC motors from hoverboards, drones, etc. make for TONS of [options](https://comma.ai/shop/products/body) for innovatation.
+ - 2027 - You'll be able to find cheap strain wave rotary actuators and awesome linear actuators from Optimus spares, OMG!
+
+
+The [FSD Lanes and Objects](https://www.youtube.com/watch?v=ODSJsviD_SU&t=5148s) system is a real innovation.
+5 years ago, we had Segmentation Networks, and we thought that they had a semantic-understanding of the world. However, this 
+was in pixel space. Now we have auto-regressive Transformers that are ACTUALLY one step closer to a real semantic-understanding of the world.
+Will this be enough for Level 5 autonomy? We will see.
+
+The most worrying part of the presentation is their new autolabeling system. Tesla is mapping out regions of roads in the 
+real world, and building out high precision maps of those places out of multi-trip reconstructions of drives through them.
+
+<figure class="mediumfigure">
+    <img src="{{ site.baseurl | prepend: site.url }}/images/aiday_autolabeling.png" />
+    <figcaption>Tesla's new rotary and linear actuators.</figcaption>
+</figure>
+
+The big issue here is that if your training data is going to contain real world places and intersections with such 
+level of detail, then, those real world places will change slowly over time due to construction, etc. And then,
+your driving networks will be trained on data which looks almost exactly like the locations they will see at inference
+time, but except there will be an extra-lane, or a newly-added traffic pattern that wasn't yet updating into the training set.
+
+This generalization problem is going to be hard to solve, especially when you are shooting for long-tail accuracy and recall.
+They are basically comitting themselves to updating these auto labels on a regular basis, but even then I predict
+that the networks will get confused when there are unexpected deviations from their training data.
