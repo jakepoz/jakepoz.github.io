@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Tesla AI Day 2022 Review"
+title:  "Your Right to Goods and Services"
 date:   2022-12-14 9:20:00 -0700
 categories: thoughts
 ---
