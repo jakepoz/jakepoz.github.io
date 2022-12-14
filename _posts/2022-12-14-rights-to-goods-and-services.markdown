@@ -25,6 +25,9 @@ However, could you maintain the right to housing, or the right to health care in
 fraction of the stranded islanders into constructing huts for the others? You could not, at least not without infringing
 someone else’s more basic rights.
 
-Unlike the freedoms that our forefathers strived for, there is no reason to strive for the artificial rights to goods
+Just to be clear, I am not saying that we should not help those in need of such things as housing and healthcare.
+But it is not a right, it is a good deed. 
+
+Unlike the freedoms that our forefathers strived for, there is no reason to enshrine any artificial rights to goods
 and services. They fundamentally stand for greed, laziness, compulsion of others, and the inability of an individual to
 be in control of his or her own destiny.
