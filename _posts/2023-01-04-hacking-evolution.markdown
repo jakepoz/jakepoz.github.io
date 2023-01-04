@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Everything is hacking evolution"
-date:   2022-01-04 9:20:00 -0700
+date:   2023-01-04 9:20:00 -0700
 categories: thoughts
 ---
 A good product or service has to do more than just deliver value to a customer, it has to appeal to some deeper
