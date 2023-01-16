@@ -42,14 +42,13 @@ There were nice new games out there, but they couldn’t stand up to the network
 
 By 2012, subscriber numbers for the genre as a whole were falling, though some new niche games (EVE Online, etc) were able to build
 and retain dedicated followings. Furthermore, it turned out that for the most popular titles, there were some players
-who would stick with those games forever, out of a sense of nostalgia. People still play EverQuest today, with the game
-still in active development nearly 25 years after it launched, even as subscriber numbers are drastically lower.
+who would stick with those games forever, out of a sense of nostalgia. 
 
 So, around 15 years after we started, we entered into the Great Fracturing. There will never again be an MMORPG that
 captures the public’s attention and mindshare like WoW did. EverQuest, WoW, and many other games from this period still
 exist, each with a dedicated fan base supporting their development through a sort of nostalgia. Furthermore, a new genre, the MoBA (Dota2/League of Legends)
 replaced the MMORPG for most gamers, promising faster action, less time commitment, and something just a little bit more
-[“optimized”](/thoughts/hacking-evolution.html) for our evolutionary senses.
+[“optimized”](/thoughts/hacking-evolution.html) for our sense of entertainment.
 
 Timeline:
 - First Beautiful Time 1999
@@ -61,22 +60,22 @@ beautiful time with MySpace, which gathered a niche early-adopter following in t
 and ate everyone’s lunch, leading to a second beautiful time with an even bigger social network. But now, things are
 fracturing again.
 
-As a whole, Facebook is losing users, Instagram is threatened, TikTok is emerging as the new genre which is more apt at
-[“hacking evolution”](/thoughts/hacking-evolution.html) and keeping people engaged. Existing centralized networks will shrink, and there will be room for
-niche followings to grow and develop, but there is not much hope to see another 1 billion user social network start up
+As a whole, Facebook is losing users, Instagram is threatened, and TikTok is emerging as the new genre which is more apt at
+[hacking evolution](/thoughts/hacking-evolution.html) and keeping people engaged. Existing centralized networks will shrink, and there will be room for
+niche followings to grow and develop, but there is not much hope to see another 1 billion user classic social network start up
 from nothing.
 
 So that’s the EverQuest principle: every social system that is at first strongly centralized, will fracture into
-specialized niches, with some sizeable nostalgia keeping things going, but ultimately most people will end up playing a
-different game.
+specialized niches, with some sizeable nostalgia keeping things going almost indefinitely at a smaller size. 
+But ultimately, most people will end up playing a different game.
 
 Predictions:
 - Social networks follow the pattern of an initial big centralization with early adopters, then a second bigger
-centralization with average users, then a decay down to smaller nostalgic user-bases which will outlast almost anyone’s
+centralization targetting average users, then a decay down to smaller nostalgic user-bases which will outlast almost anyone’s
 expectations.
-- No new social networks can launch during the second centralization, as network effects swamp out all new competitors. (
+- No new networks can launch during the second centralization, as network effects swamp out all new competitors. (
 Don’t try to compete with TikTok now, you’ll have to wait a few years)
-- You will know the second centralization is over once small niche competitors start finding a foothold among dedicated
-similar groups.
-= Eventually the genre will be recognized as past its peak, and a new game will be in town (TikTok’s model replacing
+- You will know the second centralization is over once small competitors start finding a foothold among dedicated
+but niche groups.
+- Eventually the genre will be recognized as past its peak, and a new game will be in town (TikTok’s entertainment model replacing
 social-graph based networks)
