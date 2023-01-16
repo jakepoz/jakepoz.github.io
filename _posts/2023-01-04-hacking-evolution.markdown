@@ -69,3 +69,5 @@ are barely even aware of.
 Final prediction: We’ll see the “simple” industries drive growth in alternative ways, ex. Food is going to be less about
 hacking the evolutionary drive for calories, and more about group belonging [fake dietary restrictions], virtue
 signaling [veganism, low carbon eating], etc.
+
+<sub>Thank you to my friend Paul for his ideas on this subject.</sub>
