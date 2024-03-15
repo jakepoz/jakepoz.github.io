@@ -7,6 +7,8 @@ categories: research
 Dataset augmentation is a common technique for improving the accuracy of machine learning models.
 It is widely applied in domains such as vision[[1]](#1), and speech[[2]](#2), and traditional NLP[[3]](#3).
 
+https://arxiv.org/pdf/2302.13007.pdf
+
 In this article, I want to show that there is ample evidence that this is being done to the big LLMs.
 
 NB. Thank you to Ahad Rana for his help finding likely candidates for normalization.
