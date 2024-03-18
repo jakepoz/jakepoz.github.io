@@ -9,7 +9,9 @@ It is widely applied in domains such as vision[[1]](#1), and speech[[2]](#2), an
 
 In this article, I want to show that there is ample evidence that this is being done to the big LLMs.
 
-NB. Thank you to Ahad Rana for his help finding likely candidates for normalization.
+NB. Thank you to [Ahad Rana](https://github.com/ahadrana) for his help finding likely candidates for normalization.
+
+
 
 ### References 
 <a id="1">[1]</a>
