@@ -95,7 +95,11 @@ before it worked the same in TFJS and PyTorch.
    - Then, the ONNX got converted to tensorflow savedModel format using [onnx2tf](https://github.com/PINTO0309/onnx2tf)
    - Then the `tensorflowjs_converter` was used to convert that to TFJS format
  - Convolutional networks proved the easiest to export, which is why both the text and audio encoders are convolutional.
-
+ - Performance is only "okay". There are many backends supported, including wasm, webgl, webgpu, and many hidden secret
+ settings that affect performance.
+   - The biggest perf killer was the fact that you need to call the joint network so often, and each time requires you
+   to transfer memory around with the GPU. It feels like you could make a faster joint decoder in WASM directly, but then it is 
+   not possible to swap backends midway through. And you do get a performance boost using the GPU for the big convolutions.
 
 ### Final Thoughts
 There has been a lot of talk about multi-modal LLMs out there which can hold natural conversations, ex. 
