@@ -46,7 +46,7 @@ which can make it harder to work in a streaming fashion.
 Only one of the architectures above is well suited for streaming applications, the RNN-T.
 
 You start by encoding the audio sequence using any neural network model you deem suitable.
-In my case, I chose to use a convolutional-network, where the convolutions were padded to be causal.
+In my case, I chose to use a convolutional-network, where the convolutions were padded to be casual.
 This means that each encoded audio frame only sees information from the current frame, 
 or previous frames, and not from any future frames. 
 Other encoders such as RNNs are also suitable if you want to support streaming inference.
@@ -70,35 +70,14 @@ every possible path through a 2-D matrix of choices, and reduce that to a simple
 And if you chose your audio and text encoders to support streaming inference, you can run this algorithm at 
 inference time, without having to see the whole input in advance.
 
-### The Code
+### Key Components of the Code
+- **[train.py](https://github.com/jakepoz/rnnt/blob/master/rnnt/train.py)**: Contains the training loop using PyTorch, supporting Hydra for configuration, DDP for multi-GPU training, and Tensorboard for logging.
+- **[featurizer.py](https://github.com/jakepoz/rnnt/blob/master/rnnt/featurizer.py)**: Converts audio samples into spectrograms using FFT, a crucial step before feeding audio data into the encoder.
+- **[dataset.py](https://github.com/jakepoz/rnnt/blob/master/rnnt/dataset.py)**: Manages datasets, specifically Mozilla's Common Voice and Librispeech.
+- **[causalconv.py](https://github.com/jakepoz/rnnt/blob/master/rnnt/causalconv.py)**: Implements Conv1d layers that prevent the network from seeing future frames, essential for streaming.
+- **[joint.py](https://github.com/jakepoz/rnnt/blob/master/rnnt/joint.py)**: The joint model is just a simple Linear layer. Any more complicated though, and the O(n^2) RNN-T loss function becomes intractable.
+- **[jasper.py](https://github.com/jakepoz/rnnt/blob/master/rnnt/jasper.py)**: The audio encoder is based off of Jasper which involves many residual blocks of causal convolutions.
 
-#### train.py (Train Loop)
-[https://github.com/jakepoz/rnnt/blob/master/rnnt/train.py](https://github.com/jakepoz/rnnt/blob/master/rnnt/train.py)
-
-
-This file contains a basic PyTorch train loop for an RNN-T based model. It supports Hydra for configuration
-management, DDP for multi-gpu training, and Tensorboard for data logging.
-
-#### featurizer.py (Convering audio samples into spectrograms)
-[https://github.com/jakepoz/rnnt/blob/master/rnnt/featurizer.py](https://github.com/jakepoz/rnnt/blob/master/rnnt/featurizer.py)
-
-This implements a number of different featurizers, which convert raw audio waveforms into spectrograms
-using an FFT. This is the raw input to the audio encoder later on.
-
-The final result can be pretty sensitive to the normalization chosen. It's common to take the log
-of the spectrogram values, and normalize it based on averages computed from your real dataset.
-I used some reference code from [PyTorch Audio](https://github.com/pytorch/audio/blob/87aeb554d3e2f7855b7abe5120c282f59648ed7a/examples/asr/librispeech_conformer_rnnt/transforms.py).
-
-#### dataset.py
-(https://github.com/jakepoz/rnnt/blob/master/rnnt/dataset.py)[https://github.com/jakepoz/rnnt/blob/master/rnnt/dataset.py]
-
-Using Mozilla's Common Voice and Librispeech.
-
-#### causalconv.py
-(https://github.com/jakepoz/rnnt/blob/master/rnnt/causalconv.py)[https://github.com/jakepoz/rnnt/blob/master/rnnt/causalconv.py]
-
-This wraps a traditional Conv1d layer so that it can't "peek" into the future at all
-This is accomplished by padding the input with zeros on the left side
 
 ### Using TensorflowJS
 
