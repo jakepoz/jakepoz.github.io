@@ -46,7 +46,7 @@ which can make it harder to work in a streaming fashion.
 Only one of the architectures above is well suited for streaming applications, the RNN-T.
 
 You start by encoding the audio sequence using any neural network model you deem suitable.
-In my case, I chose to use a convolutional-network, where the convolutions were padded to be casual.
+In my case, I chose to use a convolutional-network, where the convolutions were padded to be causal.
 This means that each encoded audio frame only sees information from the current frame, 
 or previous frames, and not from any future frames. 
 Other encoders such as RNNs are also suitable if you want to support streaming inference.
