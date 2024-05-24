@@ -8,11 +8,11 @@ categories: research
 ### TL;DR
 I made an RNN-T based speech recognition system that runs in the browser using TensorflowJS.
 
-You can try the demo here: https://rnnt.jakepoz.com/
+You can try the demo here: [https://rnnt.jakepoz.com/](https://rnnt.jakepoz.com/)
 
 Fair warning: The quality ain't gonna make it up on any leaderboards okay? 
 
-The full code is available here: https://github.com/jakepoz/rnnt
+The full code is available here: [https://github.com/jakepoz/rnnt](https://github.com/jakepoz/rnnt)
  - Basic RNN-T architecture implemented cleanly from scratch
  - Jasper-like convolutional audio encoder for easy streaming
  - Simple streaming featurizer that works the same in PyTorch and TFJS.
@@ -21,9 +21,9 @@ The full code is available here: https://github.com/jakepoz/rnnt
 ### Background
 There are many possible neural network architectures for transcribing speech into text and performing automatic speech recognition (ASR).
 The most common architectures being trained today are the following:
-  - CTC Loss (https://distill.pub/2017/ctc/)
-  - RNN-T Loss (https://arxiv.org/pdf/1211.3711)
-  - Encoder-Decoder Transformers (https://cdn.openai.com/papers/whisper.pdf)
+  - CTC Loss [https://distill.pub/2017/ctc/](https://distill.pub/2017/ctc/)
+  - RNN-T Loss [https://arxiv.org/pdf/1211.3711](https://arxiv.org/pdf/1211.3711)
+  - Encoder-Decoder Transformers [https://cdn.openai.com/papers/whisper.pdf](https://cdn.openai.com/papers/whisper.pdf)
 
 The challenge is that ASR is fundamentally a sequence-to-sequence problem,
 but the sequences involved are of different lengths. The 
@@ -72,8 +72,8 @@ inference time, without having to see the whole input in advance.
 
 ### The Code
 
-#### train.py (Train Loop)
-https://github.com/jakepoz/rnnt/blob/master/rnnt/train.py
+#### (train.py (Train Loop))[https://github.com/jakepoz/rnnt/blob/master/rnnt/train.py]
+
 
 This file contains a basic PyTorch train loop for an RNN-T based model. It supports Hydra for configuration
 management, DDP for multi-gpu training, and Tensorboard for data logging.
