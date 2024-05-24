@@ -72,14 +72,15 @@ inference time, without having to see the whole input in advance.
 
 ### The Code
 
-#### (train.py (Train Loop))[https://github.com/jakepoz/rnnt/blob/master/rnnt/train.py]
+#### train.py (Train Loop)
+[https://github.com/jakepoz/rnnt/blob/master/rnnt/train.py](https://github.com/jakepoz/rnnt/blob/master/rnnt/train.py)
 
 
 This file contains a basic PyTorch train loop for an RNN-T based model. It supports Hydra for configuration
 management, DDP for multi-gpu training, and Tensorboard for data logging.
 
 #### featurizer.py (Convering audio samples into spectrograms)
-https://github.com/jakepoz/rnnt/blob/master/rnnt/featurizer.py
+[https://github.com/jakepoz/rnnt/blob/master/rnnt/featurizer.py](https://github.com/jakepoz/rnnt/blob/master/rnnt/featurizer.py)
 
 This implements a number of different featurizers, which convert raw audio waveforms into spectrograms
 using an FFT. This is the raw input to the audio encoder later on.
@@ -89,12 +90,12 @@ of the spectrogram values, and normalize it based on averages computed from your
 I used some reference code from [PyTorch Audio](https://github.com/pytorch/audio/blob/87aeb554d3e2f7855b7abe5120c282f59648ed7a/examples/asr/librispeech_conformer_rnnt/transforms.py).
 
 #### dataset.py
-https://github.com/jakepoz/rnnt/blob/master/rnnt/dataset.py
+(https://github.com/jakepoz/rnnt/blob/master/rnnt/dataset.py)[https://github.com/jakepoz/rnnt/blob/master/rnnt/dataset.py]
 
 Using Mozilla's Common Voice and Librispeech.
 
 #### causalconv.py
-https://github.com/jakepoz/rnnt/blob/master/rnnt/causalconv.py
+(https://github.com/jakepoz/rnnt/blob/master/rnnt/causalconv.py)[https://github.com/jakepoz/rnnt/blob/master/rnnt/causalconv.py]
 
 This wraps a traditional Conv1d layer so that it can't "peek" into the future at all
 This is accomplished by padding the input with zeros on the left side
