@@ -18,7 +18,7 @@ Indeed, models are only now beginning to solve simple Github issues in real code
 
 However, I want to separate out this idea of “volition”, and propose a new definition of agency that will better match what will play out over the next few years as models get better:
 
-*Agency* -> **Agentic horizon** is simply the length of time over which a model can successfully learn from a sparse reward signal.
+*Agency* → **Agentic horizon** is simply the length of time over which a model can successfully learn from a sparse reward signal.
 
 More agentic models will have longer “agentic horizons”, and less agentic models will have shorter ones. They will do RLVR on ever sparser reward signals. Volition will have nothing to do with it.
 
