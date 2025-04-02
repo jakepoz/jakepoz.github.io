@@ -37,4 +37,4 @@ The way humans do this is that they have strategies for densifying the reward si
 
 We will soon see models that utilize some of these strategies when they work on a task, and it will all boil down to densifying their reward signals.
 
-Models which can do this more efficiently will be more successful.
+Models which can do this better will be more successful.
