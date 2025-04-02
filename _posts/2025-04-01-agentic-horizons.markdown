@@ -31,9 +31,9 @@ Where is this coming from? From the nature of how the latest generation of model
 Think about how sparse the reward ultimately is for creating a new startup. You might get a few bits of final reward signal (ex. Go out of business, acquihire, medium success, or IPO), only once a few years have passed.
 
 The way humans do this is that they have strategies for densifying the reward signal. Let me list a couple:
-You may try to raise money for your startup, thus giving yourself a reward signal sooner (if someone else is willing to invest, then that can be a proxy for your final reward value).
-You may launch a beta version (reward signal if it actually works, and you get reward signal from customers sooner), and force yourself to productionize code sooner (presumably more likely to get a high final reward if your site doesn’t go down).
-You may hire people (reward signal if they accept), those people may be organized in a hierarchical structure (useful for propagating intermediate rewards from more experienced to less experienced employees).
+  - You may try to raise money for your startup, thus giving yourself a reward signal sooner (if someone else is willing to invest, then that can be a proxy for your final reward value).
+  - You may launch a beta version (reward signal if it actually works, and you get reward signal from customers sooner), and force yourself to productionize code sooner (presumably more likely to get a high final reward if your site doesn’t go down).
+  - You may hire people (reward signal if they accept), those people may be organized in a hierarchical structure (useful for propagating intermediate rewards from more experienced to less experienced employees).
 
 We will soon see models that utilize some of these strategies when they work on a task, and it will all boil down to densifying their reward signals.
 
