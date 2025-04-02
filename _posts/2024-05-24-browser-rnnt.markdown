@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "RNN-T Speech Transcription in the Browser"
-date:   2023-05-24 14:08:00 -0700
+date:   2024-05-24 14:08:00 -0700
 categories: research
 ---
 
