@@ -5,8 +5,6 @@ date:   2025-04-28 11:08:00 -0700
 categories: research
 ---
 
-# AI Quasi-life
-
 Several people have posted predictions of the future lately, see [Scott Daniel](https://www.dwarkesh.com/p/scott-daniel) and [Ege Tamay](https://www.dwarkesh.com/p/ege-tamay). I want to offer my own prediction:
 
 ## April 2025
