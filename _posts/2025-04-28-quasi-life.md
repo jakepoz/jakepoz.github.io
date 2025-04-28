@@ -7,7 +7,7 @@ categories: research
 
 Several people have posted predictions of the future lately, see [Scott Daniel](https://www.dwarkesh.com/p/scott-daniel) and [Ege Tamay](https://www.dwarkesh.com/p/ege-tamay). I want to offer my own prediction:
 
-## April 2025
+## April 2025 (when this post was written)
 
 Today is April 2025, AIs are useful for a variety of tasks that you would typically do at a computer. They can write code, emails, and manage some very simple agentic workflows as long as they are not too complex.
 
