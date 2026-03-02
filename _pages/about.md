@@ -17,7 +17,7 @@ I've worked on some interesting projects in the real world:
 - Founding and running a [gaming startup](https://www.randomsaladgames.com).
 - Creating [a tool for audiobook proofing](https://www.pozotron.com). 
 - Starting [a reinforcement learning robot that can learn from interactions](https://www.gooddog.ai).
-- Writing [an OCR toolkit that has 17k stars on Github](https://github.com/allenai/olmocr).
+- Leading [an OCR toolkit that has 17k stars on Github](https://github.com/allenai/olmocr).
 - Making [tokens for open language model training](https://huggingface.co/datasets/allenai/dolma3_mix-6T)
 
 <figure>
